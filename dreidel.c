@@ -2,7 +2,6 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <uchar.h>
 #include <unistd.h>
 
 static char const *const letters[] = { u8"נ", u8"ג", u8"ה", u8"ש" };
