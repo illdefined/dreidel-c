@@ -5,12 +5,7 @@
 #include <uchar.h>
 #include <unistd.h>
 
-static char const *const letters[] = {
-	u8"נ",
-	u8"ג",
-	u8"ה",
-	u8"ש"
-};
+static char const *const letters[] = { u8"נ", u8"ג", u8"ה", u8"ש" };
 
 int main(int argc, char *argv[]) {
 	int ret = EXIT_FAILURE;
